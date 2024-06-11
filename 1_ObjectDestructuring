@@ -1,0 +1,12 @@
+//Déstructurez l'objet suivant :
+const etudiant = {
+    nom: "Kyle",
+    age: 24,
+    projets: {
+        diceGame: "Jeu de dés à deux joueurs utilisant JavaScript"
+    }
+}
+
+const {nom} = etudiant;
+const {age} = etudiant;
+const {projets} = etudiant;
